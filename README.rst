@@ -96,7 +96,7 @@ To be released.
 
 - Used flake8-import-order 0.16 temporarily.
   We couldn't use the newer version of flake8-import-order because
-  `IMPORT_3RD_PARTY` were removed on 0.17. So we have to use 0.16 before
+  ``IMPORT_3RD_PARTY`` were removed on 0.17. So we have to use 0.16 before
   `#3`_ is fixed.
 
 .. _#3: https://github.com/spoqa/flake8-import-order-spoqa/issues/3
