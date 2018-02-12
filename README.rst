@@ -8,7 +8,7 @@ flake8-import-order-spoqa
    :target: https://travis-ci.org/spoqa/flake8-import-order-spoqa
 
 This extends flake8-import-order_ to implement Spoqa's import order convention.
-It bascially follows PEP 8 with our some additional rules:
+It basically follows PEP 8 with our some additional rules:
 
 -  Standard libraries shouldn't be imported using ``from ... import ...``
    statement.  It's because standard libraries tend to use general terms
@@ -93,6 +93,13 @@ Version 1.2.1
 ~~~~~~~~~~~~~
 
 To be released.
+
+- Used flake8-import-order 0.16 temporarily.
+  We couldn't use the newer version of flake8-import-order because
+  `IMPORT_3RD_PARTY` were removed on 0.17. So we have to use 0.16 before
+  `#3`_ is fixed.
+
+.. _#3: https://github.com/spoqa/flake8-import-order-spoqa/issues/3
 
 
 Version 1.2.0
