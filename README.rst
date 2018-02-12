@@ -89,10 +89,21 @@ __ https://hongminhee.org/
 Changelog
 ---------
 
-Version 1.1.1
+Version 1.2.1
 ~~~~~~~~~~~~~
 
 To be released.
+
+
+Version 1.2.0
+~~~~~~~~~~~~~
+
+Released on November 27, 2017.
+
+- Older versions than flake8-import-order 0.16 are now unsupported.
+  (Under the hood, since flake8-import-order 0.16 refactored their internals
+  so that no more ``Style.check()`` method and ``Style.imports`` property
+  exist, flake8-import-order-spoqa also became to follow that.)
 
 
 Version 1.1.0
